@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://kit.fontawesome.com/2475ab7c7f.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>SOURHUB | MUSIC PLAYER</title>
+</head>
+<body>
+     <div class="container">
+     	<div class="music-player">
+     		<div class="player">
+     			<img src="images/theme.png" alt="Music Player" class="record" width="200px">
+     			<h2>Song Name</h2>
+     			<div class="slidecontainer">
+     				<i class="fas fa-volume-down"></i>
+     				<input type="range" min="0" max="100" value="50" class="slider">
+     				<i class="fas fa-volume-up"></i>
+     			</div>
+     			<div class="controls">
+     				<button class="previous" id="previous"><i class="fas fa-step-backward"></i></button>
+     				<button class="play-pause" id="play-pause"><i class="fas fa-play"></i></button>
+     				<button class="next" id="next"><i class="fas fa-step-forward"></i></button>
+     			</div>
+     		</div>
+     	<div class="Playlist">
+     		<h2>Playlist</h2>
+     		<ul class="song list">
+     			<li data-src="music/roses.mp3" data-name="roses" data-index="0"><span>Roses</span></li>
+     			<li data-src="music/stereo_love.mp3" data-name="stereo_love" data-index="1"><span>Stereo Love</span></li>
+     			<li data-src="music/hislerim.mp3" data-name="hislerim" data-index="2"><span>Hislerim</span></li>
+     		</ul>
+     	</div>
+     	</div>
+     </div>
+
+</body>
+</html>

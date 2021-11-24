@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	height: 100vh;
+	font-family: verdana,sans-serif;
+}
+
+.container{
+	display: flex;
+	width: 100%;
+	height: 100%;
+	background: #696969;
+
+	/*aligns in vertical centre*/
+	justify-content: center;
+	/*aligns in Horizontal centre*/
+	align-items: center;
+}
+
+.music-player{
+	background: red;
+	display: flex;
+	flex-direction: row;
+	max-height: 450px;
+	/*width: 800px;*/
+}
